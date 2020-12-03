@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: #068ab8;">
+
+<div class="logo">
+	<img src="./tempcon.png" id="image">
+</div>
+
+<div class="text_input">
+<div>
+<h3>Your Temperature Converter</h3></div>
+<div  style="border-bottom: 1px solid black;"></div>
+<form action="" method="post">
+<div class="div_input">
+  <label for="num">Magnitude:</label>
+  <input type="text" id="num" name="num">
+</div>
+<div class="div_input">
+  <label for="num">Convert to:</label>
+  <input type="radio" id="tempc" name="condition" value="c">
+  <label for="conditiont">&deg;C</label>
+  <input type="radio" id="tempf" name="condition" value="f">
+  <label for="conditionf">&deg;F</label>
+</div>
+<div class="div_input">
+  <input type="button" id="button" onclick="compute()" value="Show Result">
+</div>
+<p id="display"></p>
+</form>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>

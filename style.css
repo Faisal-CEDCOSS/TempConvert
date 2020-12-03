@@ -1,0 +1,49 @@
+
+.logo
+{   
+  text-align: center;
+  margin-left: 19.5%;
+  margin-right: 20%;
+  margin-bottom: 2%;
+}
+
+.text_input
+{
+  border-radius:10px;
+  background-color: whitesmoke;   
+  text-align: center;
+  padding: 2%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.div_input
+{
+	padding: 1%;
+}
+
+#image
+{
+  margin-top: 2%;
+  border-radius: 2%;
+  height:90%;
+  width:90%;
+}
+
+#display
+{
+  font-size: 30px;
+  font-weight: 700; 
+}
+
+#button
+{
+  background-color: #068ab8;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
